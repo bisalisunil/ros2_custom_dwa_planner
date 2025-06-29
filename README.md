@@ -39,8 +39,6 @@ Install required ROS 2 packages:
 sudo apt update
 sudo apt install -y \
   ros-humble-turtlebot3* \
-  ros-humble-navigation2 \
-  ros-humble-nav2-bringup \
   ros-humble-rviz2 \
   ros-humble-gazebo-ros-pkgs \
   ros-humble-gazebo-ros2-control \
@@ -96,7 +94,7 @@ ros2_custom_dwa_planner/
 ├── rviz/
 │   └── default.rviz
 ├── src/
-│   └── dwa_planner_node.cpp / .py
+│   └── dwa_planner_node.cpp 
 ├── CMakeLists.txt
 └── package.xml
 ```
@@ -124,14 +122,3 @@ This is a basic version that can be extended with additional features like:
 - Use RViz2 to visualize obstacles and planned paths
 - Modify trajectory cost functions in code for tuning
 
----
-
-## 🧊 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🤝 Contributions
-
-Pull requests and issue reports are welcome!
